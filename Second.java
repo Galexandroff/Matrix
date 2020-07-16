@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class Second {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        /* 
+3
+4
+a b c d
+a b c d
+a b c d
+k b c k
+a b g d
+a k c d
+        */
 
         int rows = Integer.parseInt(scanner.nextLine());
         int cols = Integer.parseInt(scanner.nextLine());
